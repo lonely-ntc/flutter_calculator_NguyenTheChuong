@@ -63,7 +63,7 @@ Một ứng dụng **máy tính bỏ túi** được xây dựng bằng **Flutte
 ### ** 2. Keypad (lưới nút bấm)**
 
 ```
-C    CE   %    ÷
+C    ()   %    ÷
 7    8    9    ×
 4    5    6    -
 1    2    3    +
@@ -82,9 +82,6 @@ Hiển thị số theo input người dùng.
 
 Không cho phép nhập nhiều dấu `.` trong 1 số.
 
-### ✔ CE (Backspace)
-
-Xoá một ký tự cuối.
 
 ### ✔ C (Clear All)
 
@@ -146,37 +143,6 @@ Trả về `"Error"` nếu `n ÷ 0`.
 
 --
 
-##  **Cài đặt & chạy project**
-
-### Clone dự án
-
-```bash
-git clone https://github.com/your-username/flutter_calculator.git
-```
-
-### Cài dependencies
-
-```bash
-flutter pub get
-```
-
-### Chạy trên device
-
-```bash
-flutter run
-```
-
----
-
-## 📸 **Ảnh giao diện (tùy bạn thêm)**
-
-Thêm các ảnh như:
-
-* màn hình chính
-* các nút bấm
-* tính toán mẫu
-
----
 
 ## 👨‍💻 **Tác giả**
 
@@ -185,8 +151,3 @@ MSSV **2224802010930**
 
 ---
 
-## 📜 **Giấy phép**
-
-MIT License (hoặc để trống nếu không yêu cầu)
-
----
